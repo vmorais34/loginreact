@@ -1,0 +1,17 @@
+.hero-section-wrapper {
+    position: relative;
+}
+.hero-section {
+    height: 550px;
+    background-color: #FFF;
+    padding: 2rem;
+    display: flex !important;
+    justify-content: space-around;
+    flex-flow: row wrap;
+}
+
+.logo {
+    position: relative;
+    width: 100%;
+    max-width: 350px;
+}
