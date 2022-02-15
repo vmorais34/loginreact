@@ -3,3 +3,10 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
 }
+
+.App {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    height: 100vh;
+}

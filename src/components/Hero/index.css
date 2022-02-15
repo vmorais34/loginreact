@@ -10,8 +10,19 @@
     flex-flow: row wrap;
 }
 
+.MuiTypography-body1 {
+    display: flex;
+    align-items: center;
+}
 .logo {
     position: relative;
     width: 100%;
+    height: max-content;
     max-width: 350px;
+}
+
+@media screen and (max-width:765px) {
+    .MuiDivider-flexItem {
+        display: none;
+    }
 }

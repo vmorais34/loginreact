@@ -12,8 +12,14 @@ export default function App() {
       <Typography component="h2">
         Faça seu Login
       </Typography>
-      <input {...register("email", {required:true}) } />
-      <input {...register("password", {required:true})} />
+      <div>
+        <label className="label-input" htmlFor="email">E-mail</label>
+        <input {...register("email", {required:true}) } />
+      </div>
+      <div>
+        <label className="label-input" htmlFor="password">Senha</label>
+        <input {...register("password", {required:true})} />
+      </div>
       <input className="submit-button" type="submit" />
     </form>
   );
