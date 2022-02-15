@@ -1,13 +1,17 @@
 import React from 'react'
+import { Provider } from "react-redux";
+import store from "../src/store"
 import Footer from './components/Footer';
-import './App.css'
 import Hero from './components/Hero';
+import './App.css'
 
 function App() {
   return (
     <div className="App">
-      <Hero />
-      <Footer />
+      <Provider store={store}>
+        <Hero />
+       <Footer />
+      </Provider>
     </div>
   );
 }
